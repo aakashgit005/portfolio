@@ -1,0 +1,762 @@
+Created At: 2026-06-13T10:16:00Z
+Completed At: 2026-06-13T10:16:01Z
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 1265
+Total Bytes: 42988
+Showing lines 1 to 800
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: <!DOCTYPE html>
+2: <html lang="en">
+3: <head>
+4: <meta charset="UTF-8">
+5: <title>Aakash Kumar | Portfolio</title>
+6: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+7: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>ðŸš€</text></svg>">
+8: 
+9: <!-- GSAP & ScrollTrigger -->
+10: <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+11: <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+12: 
+13: <!-- Fonts (DO NOT CHANGE) -->
+14: <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Bellota:wght@300;400;700&display=swap" rel="stylesheet">
+15: 
+16: <style>
+17: 
+18: *{margin:0;padding:0;box-sizing:border-box;}
+19: html{scroll-behavior:smooth;}
+20: 
+21: :root{
+22:   --accent:#00e5ff;
+23:   --accent2:#3b82f6;
+24:   --bg:#020617;
+25:   --card:#020b1f;
+26:   --border:rgba(0,229,255,.25);
+27:   --text:#e5f9ff;
+28: }
+29: 
+30: /* ===== NAVIGATION BAR ===== */
+31: nav{
+32:   position:fixed;
+33:   top:0;
+34:   left:0;
+35:   width:100%;
+36:   z-index:999;
+37:   background:rgba(2,6,23,.85);
+38:   -webkit-backdrop-filter: blur(10px);
+39:   backdrop-filter: blur(10px);
+40:   border-bottom:1px solid var(--border);
+41: }
+42: 
+43: nav ul{
+44:   list-style:none;
+45:   display:flex;
+46:   justify-content:center;
+47:   gap:28px;
+48:   padding:16px 10px;
+49:   flex-wrap:wrap;
+50: }
+51: 
+52: nav a{
+53:   text-decoration:none;
+54:   color
+<truncated 23041 bytes>
+65:           A premium, fully responsive personal portfolio designed using modern glassmorphism styling, vibrant background radial gradients, and scroll-driven entry animations.
+766:         </p>
+767:         <div class="project-tags">
+768:           <span class="project-tag">HTML5</span>
+769:           <span class="project-tag">Vanilla CSS3</span>
+770:           <span class="project-tag">JavaScript</span>
+771:           <span class="project-tag">Aesthetics</span>
+772:         </div>
+773:       </div>
+774:       <div class="project-links">
+775:         <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="project-btn project-btn-primary">View Code</a>
+776:         <a href="#" class="project-btn project-btn-secondary">Live Demo</a>
+777:       </div>
+778:     </div>
+779: 
+780:     <!-- Project 3 -->
+781:     <div class="project-card">
+782:       <div class="project-card-content">
+783:         <h3 class="project-title">
+784:           <span>📊</span> Sentiment Analysis Engine
+785:         </h3>
+786:         <p class="project-description">
+787:           A machine learning model that analyzes public sentiment of text streams. Tokenizes, preprocesses, and classifies textual data into sentiment categories.
+788:         </p>
+789:         <div class="project-tags">
+790:           <span class="project-tag">Python</span>
+791:           <span class="project-tag">Scikit-Learn</span>
+792:           <span class="project-tag">NLP</span>
+793:           <span class="project-tag">Pandas</span>
+794:         </div>
+795:       </div>
+796:       <div class="project-links">
+797:         <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="project-btn project-btn-primary">View Code</a>
+798:         <a href="#" class="project-btn project-btn-secondary">Live Demo</a>
+799:       </div>
+800:     </div>
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
+
+==================
+Created At: 2026-06-13T10:16:10Z
+Completed At: 2026-06-13T10:16:10Z
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 1265
+Total Bytes: 42988
+Showing lines 800 to 1265
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+800:     </div>
+801:   </div>
+802: </section>
+803: 
+804: 
+805: 
+806: 
+807: <!-- CONTACT -->
+808: <section id="contact" class="reveal">
+809:   <div class="grid2">
+810:     <div>
+811:       <h2>Let’s Connect & Collaborate â¤ï¸</h2>
+812:       <div class="box auto-style-19">âœ‰ï¸ <a href="mailto:aksivan410@gmail.com" class="auto-style-20">aksivan410@gmail.com</a></div>
+813:       <div class="box auto-style-21">📞 <a href="https://wa.me/919500664739" target="_blank" rel="noopener" class="auto-style-20">+91 9500664739</a></div>
+814:       
+815:       <h3>Social Links</h3>
+816:       <div class="connect-icons auto-style-22">
+817:         <a href="https://github.com/yourusername" target="_blank" rel="noopener" title="GitHub">
+818:           <img src=".vscode/git.png" alt="GitHub">
+819:         </a>
+820:         <a href="mailto:aksivan410@gmail.com" title="Email">
+821:           <img src=".vscode/mail.png" alt="Email">
+822:         </a>
+823:         <a href="https://wa.me/919500664739" target="_blank" rel="noopener" title="WhatsApp">
+824:           <img src=".vscode/whats.png" alt="WhatsApp">
+825:         </a>
+826:         <a href="https://instagram.com/yourusername" target="_blank" rel="noopener" title="Instagram">
+827:           <img src=".vscode/insta.jpg" alt="Instagram">
+828:         </a>
+829:         <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" title="LinkedIn">
+830:           <img src=".vscode/linked.png" alt="LinkedIn">
+831:         </a>
+832:       </div>
+833:     </div>
+834: 
+835:     <div>
+836:       
+<truncated 19558 bytes>
+entById('darkveil-container');
+1204: if (container) {
+1205:   const canvas = document.createElement('canvas');
+1206:   canvas.className = 'darkveil-canvas';
+1207:   container.appendChild(canvas);
+1208: 
+1209:   const hueShift = 0;
+1210:   const noiseIntensity = 0;
+1211:   const scanlineIntensity = 0;
+1212:   const speed = 0.5;
+1213:   const scanlineFrequency = 0;
+1214:   const warpAmount = 0;
+1215:   const resolutionScale = 1;
+1216: 
+1217:   const renderer = new Renderer({
+1218:     dpr: Math.min(window.devicePixelRatio, 2),
+1219:     canvas
+1220:   });
+1221: 
+1222:   const gl = renderer.gl;
+1223:   const geometry = new Triangle(gl);
+1224: 
+1225:   const program = new Program(gl, {
+1226:     vertex,
+1227:     fragment,
+1228:     uniforms: {
+1229:       uTime: { value: 0 },
+1230:       uResolution: { value: new Vec2() },
+1231:       uHueShift: { value: hueShift },
+1232:       uNoise: { value: noiseIntensity },
+1233:       uScan: { value: scanlineIntensity },
+1234:       uScanFreq: { value: scanlineFrequency },
+1235:       uWarp: { value: warpAmount }
+1236:     }
+1237:   });
+1238: 
+1239:   const mesh = new Mesh(gl, { geometry, program });
+1240: 
+1241:   const resize = () => {
+1242:     const w = container.clientWidth, h = container.clientHeight;
+1243:     renderer.setSize(w * resolutionScale, h * resolutionScale);
+1244:     program.uniforms.uResolution.value.set(w, h);
+1245:   };
+1246: 
+1247:   window.addEventListener('resize', resize);
+1248:   resize();
+1249: 
+1250:   const start = performance.now();
+1251:   let frame = 0;
+1252: 
+1253:   const loop = () => {
+1254:     program.uniforms.uTime.value = ((performance.now() - start) / 1000) * speed;
+1255:     renderer.render({ scene: mesh });
+1256:     frame = requestAnimationFrame(loop);
+1257:   };
+1258: 
+1259:   loop();
+1260: }
+1261: </script>
+1262: 
+1263: </body>
+1264: </html>
+1265: 
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
+
+==================
+The USER performed the following action:
+Show the contents of file c:\Users\aakas\OneDrive\Desktop\portfolio-main\portfolio-main\index.html from lines 564 to 599
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 1257
+Total Bytes: 42806
+Showing lines 564 to 599
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+564:   <ul>
+565:     <li><a href="#about">ABOUT</a></li>
+566:     <li><a href="#hobbies">HOBBIES</a></li>
+567:     <li><a href="#skills">SKILLS</a></li>
+568:     <li><a href="#resume">RESUME</a></li>
+569:     <li><a href="#education">EDUCATION</a></li>
+570:     <li><a href="#projects">PROJECTS</a></li>
+571:     <li><a href="#certificates">CERTIFICATES</a></li>
+572:     <li><a href="#contact">CONTACT</a></li>
+573:   </ul>
+574: </nav>
+575: 
+576: <div class="spacer"></div>
+577: 
+578: 
+579: <!-- HERO -->
+580: <section id="hero" class="auto-style-1">
+581:   <div class="grid2 auto-style-3">
+582:     <div>
+583:       <h1 class="hover auto-style-4">
+584:         Hi! I'm <span>Aakash Kumar</span>
+585:       </h1>
+586: 
+587:       <p class="auto-style-5">
+588:         Artificial Intelligence Engineer | Full Stack Developer
+589:       </p>
+590: 
+591:       <div class="auto-style-7">
+592:         <a href=".vscode/aakashkumar resume.pdf" download class="auto-style-8">
+593:           <button>⬇ Download Resume</button>
+594:         </a>
+595:       </div>
+596: 
+597:     </div>
+598: 
+599:     <div class="hero-image auto-style-9">
+
+
+==================
+The USER performed the following action:
+Show the contents of file c:\Users\aakas\OneDrive\Desktop\portfolio-main\portfolio-main\index.html from lines 537 to 572
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 1265
+Total Bytes: 42988
+Showing lines 537 to 572
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+537: .auto-style-9 { flex-direction: column; text-align: center; }
+538: .auto-style-10 { margin-top: 10px; }
+539: .auto-style-11 { margin-bottom: 10px; font-size: 24px; }
+540: .auto-style-12 { justify-content: center; }
+541: .auto-style-13 { margin-top: 40px; }
+542: .auto-style-14 { margin-top:0.5in; }
+543: .auto-style-15 { width:90%; }
+544: .auto-style-16 { width:80%; }
+545: .auto-style-17 { width:70%; }
+546: .auto-style-18 { width:75%; }
+547: .auto-style-19 { margin-bottom: 15px; }
+548: .auto-style-20 { color: inherit; text-decoration: none; }
+549: .auto-style-21 { margin-bottom: 30px; }
+550: .auto-style-22 { margin-top: 15px; }
+551: .auto-style-23 { margin-top:18px; }
+552: .auto-style-24 { margin: 0; font-weight: bold; font-size: 14px; color: var(--accent); }
+553: .auto-style-25 { margin: 0; font-size: 13px; color: #b0c7db; line-height: 1.4; }
+554: </style>
+555: </head>
+556: 
+557: <body>
+558: 
+559: <!-- ===== TOP NAVIGATION ===== -->
+560: <nav>
+561:   <ul>
+562:     <li><a href="#about">ABOUT</a></li>
+563:     <li><a href="#hobbies">HOBBIES</a></li>
+564:     <li><a href="#skills">SKILLS</a></li>
+565:     <li><a href="#resume">RESUME</a></li>
+566:     <li><a href="#education">EDUCATION</a></li>
+567:     <li><a href="#projects">PROJECTS</a></li>
+568:     <li><a href="#certificates">CERTIFICATES</a></li>
+569:     <li><a href="#contact">CONTACT</a></li>
+570:   </ul>
+571: </nav>
+572: 
+
+
+==================
+Created At: 2026-06-13T10:25:39Z
+Completed At: 2026-06-13T10:25:39Z
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 1265
+Total Bytes: 42988
+Showing lines 580 to 900
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+580:     <div>
+581:       <h1 class="hover auto-style-4">
+582:         Hi! I'm <span>Aakash Kumar</span>
+583:       </h1>
+584: 
+585:       <p class="auto-style-5">
+586:         Artificial Intelligence Engineer | Full Stack Developer
+587:       </p>
+588: 
+589:       <p>
+590:         Creating AI-powered solutions.<br>
+591:         Building modern web experiences.<br>
+592:         Solving real-world problems with technology.
+593:       </p>
+594: 
+595:       <p class="auto-style-6">
+596:         Developer and AI Enthusiast
+597:       </p>
+598: 
+599:       <div class="auto-style-7">
+600:         <a href=".vscode/aakashkumar resume.pdf" download class="auto-style-8">
+601:           <button>â¬‡ Download Resume</button>
+602:         </a>
+603:       </div>
+604: 
+605:     </div>
+606: 
+607:     <div class="hero-image auto-style-9">
+608:       <img src=".vscode/aakash port.png" alt="Aakash Kumar">
+609: 
+610:       <div class="connect-section auto-style-10">
+611:         <h3 class="auto-style-11">Connect with me</h3>
+612: 
+613:         <div class="connect-icons auto-style-12">
+614:           <a href="https://github.com/yourusername" target="_blank" rel="noopener" title="GitHub">
+615:             <img src=".vscode/git.png" alt="GitHub">
+616:           </a>
+617: 
+618:           <a href="mailto:aksivan410@gmail.com" title="Email">
+619:             <img src=".vscode/mail.png" alt="Email">
+620:           </a>
+621: 
+622:           <a href="https://wa.me/919500664739" target="_blank" rel="noopener" title="WhatsApp">
+623:             <img src=".vscode/whats.png" alt="Whats
+<truncated 9298 bytes>
+ect..." rows="4" required class="auto-style-23"></textarea>
+842:         <button type="submit" class="auto-style-23">ðŸ“¨ Send Message</button>
+843:       </form>
+844:     </div>
+845:   </div>
+846: </section>
+847: 
+848: <script>
+849: // Reveal on scroll logic
+850: const revealElements = document.querySelectorAll('.reveal');
+851: const observer = new IntersectionObserver((entries) => {
+852:   entries.forEach(entry => {
+853:     if (entry.isIntersecting) {
+854:       entry.target.classList.add('active');
+855:     }
+856:   });
+857: }, { threshold: 0.1 });
+858: 
+859: revealElements.forEach(el => observer.observe(el));
+860: 
+861: // Custom Toast notifications
+862: function showToast(message, type = 'success') {
+863:   // Check if a toast is already displayed and remove it
+864:   const existingToast = document.querySelector('.toast');
+865:   if (existingToast) {
+866:     existingToast.remove();
+867:   }
+868: 
+869:   const toast = document.createElement('div');
+870:   toast.className = 'toast';
+871:   
+872:   const icon = type === 'success' ? 'ðŸš€' : 'âš ï¸';
+873:   const title = type === 'success' ? 'Success!' : 'Error';
+874:   
+875:   toast.innerHTML = `
+876:     <span class="toast-icon">${icon}</span>
+877:     <div>
+878:       <p class="auto-style-24">${title}</p>
+879:       <p class="auto-style-25">${message}</p>
+880:     </div>
+881:   `;
+882:   document.body.appendChild(toast);
+883:   
+884:   // Trigger transition
+885:   setTimeout(() => {
+886:     toast.classList.add('show');
+887:   }, 50);
+888: 
+889:   // Auto-dismiss
+890:   setTimeout(() => {
+891:     toast.classList.remove('show');
+892:     setTimeout(() => {
+893:       toast.remove();
+894:     }, 400);
+895:   }, 4000);
+896: }
+897: 
+898: // Contact Form submission handler
+899: const contactForm = document.getElementById('contact-form');
+900: if (contactForm) {
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
+
+==================
+Created At: 2026-06-13T10:30:42Z
+Completed At: 2026-06-13T10:30:42Z
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 1265
+Total Bytes: 42920
+Showing lines 1120 to 1265
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1120: 
+1121:   velocityX = 0.5;
+1122:   startInertia();
+1123:   applyTransform();
+1124: }
+1125: </script>
+1126: 
+1127: <script type="module">
+1128: import { Renderer, Program, Mesh, Triangle, Vec2 } from 'https://esm.sh/ogl';
+1129: 
+1130: // --- DARK VEIL VANILLA JS PORT ---
+1131: const vertex = `
+1132: attribute vec2 position;
+1133: void main(){gl_Position=vec4(position,0.0,1.0);}
+1134: `;
+1135: 
+1136: const fragment = `
+1137: #ifdef GL_ES
+1138: precision lowp float;
+1139: #endif
+1140: uniform vec2 uResolution;
+1141: uniform float uTime;
+1142: uniform float uHueShift;
+1143: uniform float uNoise;
+1144: uniform float uScan;
+1145: uniform float uScanFreq;
+1146: uniform float uWarp;
+1147: #define iTime uTime
+1148: #define iResolution uResolution
+1149: 
+1150: vec4 buf[8];
+1151: float rand(vec2 c){return fract(sin(dot(c,vec2(12.9898,78.233)))*43758.5453);}
+1152: 
+1153: mat3 rgb2yiq=mat3(0.299,0.587,0.114,0.596,-0.274,-0.322,0.211,-0.523,0.312);
+1154: mat3 yiq2rgb=mat3(1.0,0.956,0.621,1.0,-0.272,-0.647,1.0,-1.106,1.703);
+1155: 
+1156: vec3 hueShiftRGB(vec3 col,float deg){
+1157:     vec3 yiq=rgb2yiq*col;
+1158:     float rad=radians(deg);
+1159:     float cosh=cos(rad),sinh=sin(rad);
+1160:     vec3 yiqShift=vec3(yiq.x,yiq.y*cosh-yiq.z*sinh,yiq.y*sinh+yiq.z*cosh);
+1161:     return clamp(yiq2rgb*yiqShift,0.0,1.0);
+1162: }
+1163: 
+1164: vec4 sigmoid(vec4 x){return 1./(1.+exp(-x));}
+1165: 
+1166: vec4 cppn_fn(vec2 coordinate,float in0,float in1,float in2){
+1167:     buf[6]=vec4(coordinate.x,coordinate.y,0.3948333106474662+in0,0.36+in1);
+1168:     buf[7]=vec4(0.14+in2,sq
+<truncated 8524 bytes>
+entById('darkveil-container');
+1204: if (container) {
+1205:   const canvas = document.createElement('canvas');
+1206:   canvas.className = 'darkveil-canvas';
+1207:   container.appendChild(canvas);
+1208: 
+1209:   const hueShift = 0;
+1210:   const noiseIntensity = 0;
+1211:   const scanlineIntensity = 0;
+1212:   const speed = 0.5;
+1213:   const scanlineFrequency = 0;
+1214:   const warpAmount = 0;
+1215:   const resolutionScale = 1;
+1216: 
+1217:   const renderer = new Renderer({
+1218:     dpr: Math.min(window.devicePixelRatio, 2),
+1219:     canvas
+1220:   });
+1221: 
+1222:   const gl = renderer.gl;
+1223:   const geometry = new Triangle(gl);
+1224: 
+1225:   const program = new Program(gl, {
+1226:     vertex,
+1227:     fragment,
+1228:     uniforms: {
+1229:       uTime: { value: 0 },
+1230:       uResolution: { value: new Vec2() },
+1231:       uHueShift: { value: hueShift },
+1232:       uNoise: { value: noiseIntensity },
+1233:       uScan: { value: scanlineIntensity },
+1234:       uScanFreq: { value: scanlineFrequency },
+1235:       uWarp: { value: warpAmount }
+1236:     }
+1237:   });
+1238: 
+1239:   const mesh = new Mesh(gl, { geometry, program });
+1240: 
+1241:   const resize = () => {
+1242:     const w = container.clientWidth, h = container.clientHeight;
+1243:     renderer.setSize(w * resolutionScale, h * resolutionScale);
+1244:     program.uniforms.uResolution.value.set(w, h);
+1245:   };
+1246: 
+1247:   window.addEventListener('resize', resize);
+1248:   resize();
+1249: 
+1250:   const start = performance.now();
+1251:   let frame = 0;
+1252: 
+1253:   const loop = () => {
+1254:     program.uniforms.uTime.value = ((performance.now() - start) / 1000) * speed;
+1255:     renderer.render({ scene: mesh });
+1256:     frame = requestAnimationFrame(loop);
+1257:   };
+1258: 
+1259:   loop();
+1260: }
+1261: </script>
+1262: 
+1263: </body>
+1264: </html>
+1265: 
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
+
+==================
+Created At: 2026-06-13T10:37:12Z
+Completed At: 2026-06-13T10:37:12Z
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 1256
+Total Bytes: 34932
+Showing lines 880 to 1000
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+880:       <p class="auto-style-24">${title}</p>
+881:       <p class="auto-style-25">${message}</p>
+882:     </div>
+883:   `;
+884:   document.body.appendChild(toast);
+885:   
+886:   // Trigger transition
+887:   setTimeout(() => {
+888:     toast.classList.add('show');
+889:   }, 50);
+890: 
+891:   // Auto-dismiss
+892:   setTimeout(() => {
+893:     toast.classList.remove('show');
+894:     setTimeout(() => {
+895:       toast.remove();
+896:     }, 400);
+897:   }, 4000);
+898: }
+899: 
+900: // Contact Form submission handler
+901: const contactForm = document.getElementById('contact-form');
+902: if (contactForm) {
+903:   contactForm.addEventListener('submit', (e) => {
+904:     e.preventDefault();
+905:     const name = document.getElementById('contact-name').value;
+906:     const email = document.getElementById('contact-email').value;
+907:     const message = document.getElementById('contact-message').value;
+908: 
+909:     if (!name || !email || !message) {
+910:       showToast("Please fill in all required fields.", "error");
+911:       return;
+912:     }
+913: 
+914:     showToast(`Thank you, ${name}! Your message has been sent successfully.`);
+915:     contactForm.reset();
+916:   });
+917: }
+918: </script>
+919: 
+920: <script>
+921: // --- SCROLL FLOAT HEADING ANIMATION (Vanilla JS Port) ---
+922: gsap.registerPlugin(ScrollTrigger);
+923: 
+924: const headings = document.querySelectorAll('h2');
+925: headings.forEach(heading => {
+926:   const text = heading.textContent;
+927:   heading.innerHTML = '';
+928:   heading.style.overflow = 'hidden';
+929: 
+930:   const textSpan = d
+<truncated 206 bytes>
+('en', { granularity: 'grapheme' });
+936:     chars = Array.from(segmenter.segment(text)).map(s => s.segment);
+937:   } else {
+938:     chars = Array.from(text);
+939:   }
+940:   
+941:   chars.forEach(char => {
+942:     const span = document.createElement('span');
+943:     span.className = 'char';
+944:     span.style.display = 'inline-block';
+945:     span.innerHTML = char === ' ' ? '&nbsp;' : char;
+946:     textSpan.appendChild(span);
+947:   });
+948:   
+949:   heading.appendChild(textSpan);
+950: 
+951:   const charElements = heading.querySelectorAll('.char');
+952: 
+953:   gsap.fromTo(
+954:     charElements,
+955:     {
+956:       willChange: 'opacity, transform',
+957:       opacity: 0,
+958:       yPercent: 120,
+959:       scaleY: 2.3,
+960:       scaleX: 0.7,
+961:       transformOrigin: '50% 0%'
+962:     },
+963:     {
+964:       duration: 1,
+965:       ease: 'back.inOut(2)',
+966:       opacity: 1,
+967:       yPercent: 0,
+968:       scaleY: 1,
+969:       scaleX: 1,
+970:       stagger: 0.03,
+971:       scrollTrigger: {
+972:         trigger: heading,
+973:         start: 'center bottom+=50%',
+974:         end: 'bottom bottom-=40%',
+975:         scrub: true
+976:       }
+977:     }
+978:   );
+979: });
+980: 
+981: // --- DOME GALLERY VANILLA JS PORT ---
+982: const skillsImages = [
+983:   '.vscode/java.png',
+984:   '.vscode/python.jpg',
+985:   '.vscode/javascript.png',
+986:   '.vscode/react j.png',
+987:   '.vscode/c.png',
+988:   '.vscode/html.png',
+989:   '.vscode/css.jpg',
+990:   '.vscode/mongodb.png',
+991:   '.vscode/c++.png'
+992: ];
+993: 
+994: const segments = 25;
+995: const sphere = document.getElementById('skills-sphere');
+996: const mainArea = document.getElementById('skills-main');
+997: 
+998: if (sphere && mainArea) {
+999:   const xCols = Array.from({ length: segments }, (_, i) => -24 + i * 2);
+1000:   const evenYs = [-4, -2, 0, 2, 4];
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
+
+==================
+The USER performed the following action:
+Show the contents of file c:\Users\aakas\OneDrive\Desktop\portfolio-main\portfolio-main\index.html from lines 909 to 944
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 1257
+Total Bytes: 35068
+Showing lines 909 to 944
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+909:     if (!name || !email || !message) {
+910:       showToast("Please fill in all required fields.", "error");
+911:       return;
+912:     }
+913: 
+914:     showToast(`Thank you, ${name}! Your message has been sent successfully.`);
+915:     contactForm.reset();
+916:   });
+917: }
+918: </script>
+919: 
+920: <script>
+921: // --- BLUR TEXT HEADING ANIMATION (Vanilla JS Port) ---
+922: gsap.registerPlugin(ScrollTrigger);
+923: 
+924: function wrapWords(element) {
+925:   const textNodes = [];
+926:   const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, null, false);
+927:   let node;
+928:   while ((node = walker.nextNode())) {
+929:     textNodes.push(node);
+930:   }
+931:   
+932:   textNodes.forEach(textNode => {
+933:     const text = textNode.textContent;
+934:     if (!text.trim()) return;
+935:     
+936:     const fragment = document.createDocumentFragment();
+937:     const words = text.split(/(\s+)/);
+938:     
+939:     words.forEach(word => {
+940:       if (word.trim().length === 0) {
+941:         fragment.appendChild(document.createTextNode(word));
+942:       } else {
+943:         const span = document.createElement('span');
+944:         span.className = 'blur-word';
+
+
+==================
+Created At: 2026-06-13T11:04:15Z
+Completed At: 2026-06-13T11:04:15Z
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/package.json`
+Total Lines: 12
+Total Bytes: 227
+Showing lines 1 to 12
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: {
+2:   "name": "portfolio-final-look",
+3:   "version": "1.0.0",
+4:   "description": "Personal Portfolio",
+5:   "main": "index.html",
+6:   "scripts": {
+7:     "start": "npx -y serve -l 3000 ."
+8:   },
+9:   "dependencies": {},
+10:   "devDependencies": {}
+11: }
+12: 
+The above content shows the entire, complete file contents of the requested file.
+
+==================
+Created At: 2026-06-13T11:06:00Z
+Completed At: 2026-06-13T11:06:00Z
+File Path: `file:///c:/Users/aakas/OneDrive/Desktop/portfolio-main/portfolio-main/index.html`
+Total Lines: 14
+Total Bytes: 367
+Showing lines 1 to 14
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: <!doctype html>
+2: <html lang="en">
+3:   <head>
+4:     <meta charset="UTF-8" />
+5:     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+6:     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+7:     <title>portfolio-react</title>
+8:   </head>
+9:   <body>
+10:     <div id="root"></div>
+11:     <script type="module" src="/src/main.jsx"></script>
+12:   </body>
+13: </html>
+14: 
+The above content shows the entire, complete file contents of the requested file.
+
+==================
